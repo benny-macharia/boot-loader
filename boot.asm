@@ -77,4 +77,4 @@ print:
 msg:    db "Learning assembly!", 0
 
 times 510-($-$$) db 0
-dw 0xAA55
+dw 0xAA55                ; boot signature
