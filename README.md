@@ -5,7 +5,7 @@ Learning assembly, and how bootloaders work.
 </br>
 Used WSL-Ubuntu. 
 </br>
-Installation
+## Installation
 <br/>
 Nasm
 <br/>
