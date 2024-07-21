@@ -17,7 +17,7 @@ Install Qemu emulator
 <code>sudo apt-get install qemu</code>
 <br />
 <br/>
-Create the binary when done with the code
+Create the binary. 
 <br/>
 <code>nasm -f bin boot.asm -o boot.com</code>
 </br>
