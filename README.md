@@ -5,20 +5,23 @@ Learning assembly, and how bootloaders work.
 </br>
 Used WSL-Ubuntu. 
 </br>
-## Installation
+Installation
 <br/>
-### Nasm
+Nasm
 <br/>
 <code>sudo pacman -S nasm</code>
 <br/>
-### Install Qemu emulator
+</br>
+Install Qemu emulator
 <br/>
 <code>sudo apt-get install qemu</code>
 <br />
-### Create the binary when done with the code
+<br/>
+Create the binary when done with the code
 <br/>
 <code>nasm -f bin boot.asm -o boot.com</code>
 </br>
-#### Run Qemu 
+</br>
+Run Qemu 
 <br/>
 <code>qemu-system-i386 -fda boot.com</code>
